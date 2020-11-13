@@ -18,10 +18,21 @@ The link for the thesis will be provided after it is available in the university
 
 ## Process
 
-The following process was performed in the analysis:
+**The following process was performed in the analysis:**
 - Data preprocessing
     - Joining of data tables
     - Removal of duplicates and null values
+- Removal of outliers
+- Inspection of interactions between variables and collinearity
+    - H-statistic
+    - SHAP
+    - Correlation matrix
+    - Variance inflation factor (VIF)
+- Feature selection
+    - Recursive feature elimination
+- XGBoost model training and assessment
+    - Cross-validation and hyperparameter tuning
+    - 	k_{n+1}
 
 
 ## Results
