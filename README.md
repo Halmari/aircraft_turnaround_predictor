@@ -46,12 +46,12 @@ As mentioned, the MAE for the best model is 2.81 minutes and data is capable of 
 
 ### Performance metrics and distributions of residuals for different models 
 
-In the figure and table below, distributions of residuals for different models are presented. Four models are provided with different subsets of feature variables which leads to different prediction accuracies.
+In the figure and table below, distributions of residuals for different models are presented. Four models are provided with different subsets of feature variables which leads to different prediction accuracies. Individual models have also unique hyperparameters.
 
 <p align="center">
-  <img src="/images/turnaround.jpg" alt="Finnair aircraft turnaround" width="600"/>
+  <img src="/images/performance_table.png" alt="Performance table for different models" width="600"/>
 </p>
-<p align="center">(Photo by Finnair)</p>
+<p align="center">Metrics for different XGBoost models</p>
 
 <p align="center">
   <img src="/images/turnaround.jpg" alt="Finnair aircraft turnaround" width="600"/>
