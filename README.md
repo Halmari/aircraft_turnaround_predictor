@@ -42,5 +42,9 @@ The link for the thesis will be provided after it is available in the university
 
 ## Results
 
-As mentioned, the MAE for the best model is 2.81 minutes and data is capable of explaining 60% of the variance in the target variable turnaround time. Such level of performance combined with the capability of the model to explain contributions of different factors on the final prediction means that the model is successful as a proof-of-concept model in predicting turnaround times in this kind of approach. 
+As mentioned, the MAE for the best model is 2.81 minutes and data is capable of explaining 60% of the variance in the target variable turnaround time. Such level of performance combined with the capability of the model to explain contributions of different factors on the final prediction means that the model is successful as a proof-of-concept model in predicting turnaround times. It lays the foundation for further development and data collection in this kind of approach. Below are visualized some of the important results of the analysis. Units of some visualizations are removed to prevent distribution of confidential information.
+
+### Distributions of residuals for different models
+
+In the figure and table below, distributions of residuals for different models are presented. Four models are provided with different subsets of feature variables which leads to different prediction accuracies.
 
