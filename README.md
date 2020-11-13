@@ -9,11 +9,7 @@ This repository contains the main points from my thesis where I present a model 
 - SHAP
 - Seaborn & Matplotlib
 
-All scripts are running on an Ubuntu VM in Google Cloud (Compute Engine)
-Pandas is used in the data processing
-Data is stored in a PostgreSQL database
-Visualizations are drawn with Seaborn/Matplotlib
-Cron schedules the execution of database and notebook update scripts
+The link for the thesis will be provided after it is available in the university library site.
 
 
 <p align="center">
