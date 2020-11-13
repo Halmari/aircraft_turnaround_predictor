@@ -23,7 +23,7 @@ The link for the thesis will be provided after it is available in the university
 **The following process was performed in the analysis:**
 - Data preprocessing
     - Joining of data tables
-    - Removal of duplicates and null values
+    - Removal of duplicates and rows with null values
 - Removal of outliers
 - Inspection of interactions between variables and collinearity
     - H-statistic
@@ -41,4 +41,6 @@ The link for the thesis will be provided after it is available in the university
 
 
 ## Results
+
+As mentioned, the MAE for the best model is 2.81 minutes and data is capable of explaining 60% of the variance in the target variable turnaround time. Such level of performance combined with the capability of the model to explain contributions of different factors on the final prediction means that the model is successful as a proof-of-concept model in predicting turnaround times in this kind of approach. 
 
