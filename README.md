@@ -18,5 +18,11 @@ The link for the thesis will be provided after it is available in the university
 
 ## Process
 
+The following process was performed in the analysis:
+- Data preprocessing
+    - Joining of data tables
+    - Removal of duplicates and null values
+
+
 ## Results
 
