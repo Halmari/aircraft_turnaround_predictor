@@ -4,9 +4,6 @@ This repository contains the main points from my thesis where I present a model 
 
 
 <p align="center">
-  <img src="/images/turnaround.jpg" alt="Finnair aircraft turnaround"/>
+  <img src="/images/turnaround.jpg" alt="Finnair aircraft turnaround" width="200"/>
 </p>
-
-![Finnair aircraft turnaround](/images/turnaround.jpg)
-
 (Photo by Finnair)
