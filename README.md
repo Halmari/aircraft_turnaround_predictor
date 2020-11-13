@@ -1,6 +1,6 @@
 # Interpretable machine learning for prediction of aircraft turnaround durations
 
-This repository contains the main points from my thesis where I present a model which predicts turnaround durations of an aircraft and also provides interpretability for the predictions. Predictions are made with a machine learning algorithm XGBoost and interpretability is provided with interpretability framework SHAP.
+This repository contains the main points from my thesis where I present a model which predicts turnaround durations of an aircraft and also provides interpretability for the predictions. Predictions are made with a machine learning algorithm XGBoost and interpretability is provided with interpretability framework SHAP. Aircraft turnaround consists of sequence of tasks which prepare the aircraft for another journey.
 
 Final trained model is capable of explaining approximately 60% of the variance in turnaround durations and mean absolute error for predictions is 2.81 minutes at best. In addition to point estimates, SHAP provides local explanations for single turnaround predictions by giving contributions of different feature variables on the prediction. More details can be found below and in the thesis.  
 
@@ -71,7 +71,7 @@ Below are few selected visualizations to show the global and local effects of di
 <p align="center">SHAP summary plot showing the global effects of different features</p>
 <br/><br/>
 
-SHAP dependency plot below shows the more detailed effect of a feature variable on the predictions, in this case the number of departing passengers. In addition, another feature, the Deice variable, has been included in the plot as it demonstrates interaction effects with the number of departing passengers. 
+SHAP dependency plot below shows the more detailed effect of a feature variable on the predictions, in this case the number of departing passengers. In addition, another feature, the Deice variable, has been included in the plot as it demonstrates interaction effects with the number of departing passengers. Colored line on the right visualizes the values of the Deice variable.
 
 <p align="center">
   <img src="/images/shap_36.png" alt="" width="700"/>
@@ -79,7 +79,7 @@ SHAP dependency plot below shows the more detailed effect of a feature variable 
 <p align="center">Metrics for different XGBoost models</p>
 <br/><br/>
 
-Lastly, waterfall plot belows demonstrates the local explainability which means the contributions of different features on a single turnaround prediction. Waterfall plots starts from the expected turnaround duration and concludes on the final prediction by adding contributions of different features to the expected value.
+Lastly, waterfall plot belows demonstrates the local explainability which means the contributions of different features on a single turnaround prediction. Waterfall plots starts from the expected turnaround duration and concludes on the final prediction by adding contributions of different features to the expected value. Values on the left are the feature values in this specific turnaround. 
 
 <p align="center">
   <img src="/images/waterfall_best1.png" alt="" width="700"/>
