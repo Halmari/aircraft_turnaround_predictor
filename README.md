@@ -32,7 +32,7 @@ The link for the thesis will be provided after it is available in the university
     - Recursive feature elimination
 - XGBoost model training and assessment
     - Cross-validation and hyperparameter tuning
-    - 	k_{n+1}
+    - Mean absolute error (MAE) and explained variance (R<sup>2</sup>) 
 
 
 ## Results
