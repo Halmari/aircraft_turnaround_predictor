@@ -1,6 +1,6 @@
 # Interpretable machine learning for prediction of aircraft turnaround durations
 
-This repository contains the main points from my thesis where I present a model which predicts turnaround durations of an aircraft and also provides interpretability for the predictions. Predictions are made with a machine learning algorithm XGBoost and interpretability is provided with interpretability framework SHAP. Aircraft turnaround consists of sequence of tasks which prepare the aircraft for another journey.
+This repository contains the main points from my thesis where I present a model which predicts turnaround durations of an aircraft and also provides interpretability for the predictions. Predictions are made with a machine learning algorithm XGBoost and interpretability is provided with interpretability framework SHAP. Aircraft turnaround consists of sequence of tasks which prepare the aircraft for another journey and the aim is to describe those subprocesses with explicit input parameters such as passenger count and the amount of cargo on board.
 
 Final trained model is capable of explaining approximately 60% of the variance in turnaround durations and mean absolute error for predictions is 2.81 minutes at best. In addition to point estimates, SHAP provides local explanations for single turnaround predictions by giving contributions of different feature variables on the prediction. More details can be found below and in the thesis.  
 
