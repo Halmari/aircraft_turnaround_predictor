@@ -62,7 +62,7 @@ In the figure and table below, distributions of residuals for different models a
 
 ### Global and local explanations provided by SHAP
 
-Below are few selected visualizations to show the global and local effects of different variables. The SHAP Python framework is provided by Scott Lundberg. SHAP summary plots demonstrates the effects of different feature variables on a global level. Color coding on the right side of the plot represents the value of a single observation for that specific feature. 
+Below are few selected visualizations to show the global and local effects of different variables. The SHAP Python framework is provided by [Scott Lundberg](https://github.com/slundberg/shap). SHAP summary plots demonstrates the effects of different feature variables on a global level. Color coding on the right side of the plot represents the value of a single observation for that specific feature. 
 <br/><br/>
 
 <p align="center">
