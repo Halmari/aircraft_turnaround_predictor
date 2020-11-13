@@ -49,13 +49,12 @@ As mentioned, the MAE for the best model is 2.81 minutes and data is capable of 
 In the figure and table below, distributions of residuals for different models are presented. Four models are provided with different subsets of feature variables which leads to different prediction accuracies. Individual models have also unique hyperparameters.
 
 <p align="center">
-  <img src="/images/performance_table.png" alt="Performance table for different models" width="600"/>
-</p>
-<p align="center">Metrics for different XGBoost models</p>
-
-<p align="center">
-  <img src="/images/residuals.png" alt="Residuals for different models" width="600"/>
+  <img src="/images/residuals.png" alt="Residuals for different models" width="700"/>
 </p>
 <p align="center">Distributions of residuals for different XGBoost models</p>
 
+<p align="center">
+  <img src="/images/performance_table.png" alt="Performance table for different models" width="700"/>
+</p>
+<p align="center">Metrics for different XGBoost models</p>
 
