@@ -20,7 +20,7 @@ The link for the thesis will be provided after it is available in the university
 
 ## Process
 
-**The following process was performed in the analysis:**
+The following process was performed in the analysis:
 - Data preprocessing
     - Joining of data tables
     - Removal of duplicates and rows with null values
@@ -71,7 +71,7 @@ Below are few selected visualizations to show the global and local effects of di
 <p align="center">SHAP summary plot showing the global effects of different features</p>
 <br/><br/>
 
-SHAP dependency plot below shows the more detailed effect of a feature variable on the predictions, in this case the number of departing passengers. In addition, another variable, the Deice variable, has been included in the plot as it demonstrates interaction effects with the number of departing passengers. 
+SHAP dependency plot below shows the more detailed effect of a feature variable on the predictions, in this case the number of departing passengers. In addition, another feature, the Deice variable, has been included in the plot as it demonstrates interaction effects with the number of departing passengers. 
 
 <p align="center">
   <img src="/images/shap_36.png" alt="" width="700"/>
@@ -79,7 +79,7 @@ SHAP dependency plot below shows the more detailed effect of a feature variable 
 <p align="center">Metrics for different XGBoost models</p>
 <br/><br/>
 
-Lastly, 
+Lastly, waterfall plot belows demonstrates the local explainability which means the contributions of different features on a single turnaround prediction. Waterfall plots starts from the expected turnaround duration and concludes on the final prediction by adding contributions of different features to the expected value.
 
 <p align="center">
   <img src="/images/waterfall_best1.png" alt="" width="700"/>
