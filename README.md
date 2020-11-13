@@ -52,7 +52,7 @@ In the figure and table below, distributions of residuals for different models a
   <img src="/images/residuals.png" alt="Residuals for different models" width="700"/>
 </p>
 <p align="center">Distributions of residuals for different XGBoost models</p>
-
+<br/><br/>
 <p align="center">
   <img src="/images/performance_table.png" alt="Performance table for different models" width="700"/>
 </p>
