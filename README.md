@@ -10,8 +10,7 @@ This repository contains the main points from my thesis where I present a model 
 - Seaborn & Matplotlib
 
 The link for the thesis will be provided after it is available in the university library site.
-
-
+<br/><br/>
 <p align="center">
   <img src="/images/turnaround.jpg" alt="Finnair aircraft turnaround" width="600"/>
 </p>
