@@ -63,12 +63,19 @@ In the figure and table below, distributions of residuals for different models a
 ### Global and local explanations provided by SHAP
 
 <p align="center">
-  <img src="/images/residuals.png" alt="Residuals for different models" width="700"/>
+  <img src="/images/shap_summary.png" alt="" width="700"/>
 </p>
-<p align="center">Distributions of residuals for different XGBoost models</p>
+<p align="center">SHAP summary plot showing the global effects of different features</p>
 <br/><br/>
 
 <p align="center">
-  <img src="/images/performance_table.png" alt="Performance table for different models" width="700"/>
+  <img src="/images/shap_36.png" alt="" width="700"/>
 </p>
 <p align="center">Metrics for different XGBoost models</p>
+<br/><br/>
+
+<p align="center">
+  <img src="/images/waterfall_best1.png" alt="" width="700"/>
+</p>
+<p align="center">Metrics for different XGBoost models</p>
+
