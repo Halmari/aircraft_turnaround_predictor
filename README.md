@@ -62,7 +62,7 @@ In the figure and table below, distributions of residuals for different models a
 
 ### Global and local explanations provided by SHAP
 
-Below are few selected visualizations to show the global and local effects of different variables. The SHAP Python framework is provided by [Scott Lundberg](https://github.com/slundberg/shap). SHAP summary plot demonstrates the effects of different feature variables on a global level. Color coding on the right side of the plot represents the value of a single observation for a specific feature. 
+Below are few selected visualizations to show the global and local effects of different variables. The SHAP Python framework is provided by [Scott Lundberg](https://github.com/slundberg/shap). SHAP summary plot demonstrates the effects of different feature variables on a global level. Color coding on the right side of the plot represents the value of a single observation for a specific feature. Summary plot indicates that features with the largest effect on the predictions are number of departing passengers, deicing and available turnaround time.
 <br/><br/>
 
 <p align="center">
