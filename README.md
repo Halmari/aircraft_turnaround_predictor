@@ -42,7 +42,7 @@ The link for the thesis will be provided after it is available in the university
 
 ## Results
 
-As mentioned, the MAE for the best model is 2.81 minutes and data is capable of explaining 60% of the variance in the target variable turnaround time. Such level of performance combined with the capability of the model to explain contributions of different factors on the final prediction means that the model is successful as a proof-of-concept model in predicting turnaround times. It lays the foundation for further development and data collection in this kind of approach. Below are visualized some of the important results of the analysis. Units of some visualizations are removed to prevent distribution of confidential information.
+As mentioned, the MAE for the best model is 2.81 minutes and data is capable of explaining 60% of the variance in the target variable turnaround time. Such level of performance combined with the capability of the model to explain contributions of different factors on the final prediction means that the model is successful as a proof-of-concept model in predicting turnaround times. It lays the foundation for further development and data collection in this kind of approach. Discovery and collection of data for additional varibles would improve the accuracies. Below are visualized some of the important results of the analysis. Units of some visualizations are removed to prevent distribution of confidential information.
 
 ### Performance metrics and distributions of residuals for different models 
 
@@ -62,17 +62,24 @@ In the figure and table below, distributions of residuals for different models a
 
 ### Global and local explanations provided by SHAP
 
+Below are few selected visualizations to show the global and local effects of different variables. The SHAP Python framework is provided by Scott Lundberg. SHAP summary plots demonstrates the effects of different feature variables on a global level. Color coding on the right side of the plot represents the value of a single observation for that specific feature. 
+<br/><br/>
+
 <p align="center">
   <img src="/images/shap_summary.png" alt="" width="700"/>
 </p>
 <p align="center">SHAP summary plot showing the global effects of different features</p>
 <br/><br/>
 
+SHAP dependency plot below shows the more detailed effect of a feature variable on the predictions, in this case the number of departing passengers. In addition, another variable, the Deice variable, has been included in the plot as it demonstrates interaction effects with the number of departing passengers. 
+
 <p align="center">
   <img src="/images/shap_36.png" alt="" width="700"/>
 </p>
 <p align="center">Metrics for different XGBoost models</p>
 <br/><br/>
+
+Lastly, 
 
 <p align="center">
   <img src="/images/waterfall_best1.png" alt="" width="700"/>
