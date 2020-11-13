@@ -28,11 +28,14 @@ The link for the thesis will be provided after it is available in the university
     - SHAP
     - Correlation matrix
     - Variance inflation factor (VIF)
+- Exploratory data analysis (bivariate visualizations)
 - Feature selection
     - Recursive feature elimination
 - XGBoost model training and assessment
     - Cross-validation and hyperparameter tuning
-    - Mean absolute error (MAE) and explained variance (R<sup>2</sup>) 
+    - Mean absolute error (MAE) and explained variance (R<sup>2</sup>)
+- Interpretation of results with SHAP
+    - Local and global explanations
 
 
 ## Results
