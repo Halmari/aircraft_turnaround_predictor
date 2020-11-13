@@ -54,8 +54,8 @@ In the figure and table below, distributions of residuals for different models a
 <p align="center">Metrics for different XGBoost models</p>
 
 <p align="center">
-  <img src="/images/turnaround.jpg" alt="Finnair aircraft turnaround" width="600"/>
+  <img src="/images/residuals.png" alt="Residuals for different models" width="600"/>
 </p>
-<p align="center">(Photo by Finnair)</p>
+<p align="center">Distributions of residuals for different XGBoost models</p>
 
 
