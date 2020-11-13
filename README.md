@@ -2,11 +2,12 @@
 
 This repository contains the main points from my thesis where I present a model which predicts turnaround durations of an aircraft and also provides interpretability for the predictions. Predictions are made with a machine learning algorithm XGBoost and interpretability is provided with interpretability framework SHAP.
 
-**Main components/technologies:**
+**Main technologies used in the process:**
 - Pandas
+- Scikit-learn
 - XGBoost
 - SHAP
-- 
+- Seaborn & Matplotlib
 
 All scripts are running on an Ubuntu VM in Google Cloud (Compute Engine)
 Pandas is used in the data processing
