@@ -62,7 +62,7 @@ In the figure and table below, distributions of residuals for different models a
 
 ### Global and local explanations provided by SHAP
 
-Below are few selected visualizations to show the global and local effects of different variables. The SHAP Python framework is provided by [Scott Lundberg](https://github.com/slundberg/shap). SHAP summary plots demonstrates the effects of different feature variables on a global level. Color coding on the right side of the plot represents the value of a single observation for that specific feature. 
+Below are few selected visualizations to show the global and local effects of different variables. The SHAP Python framework is provided by [Scott Lundberg](https://github.com/slundberg/shap). SHAP summary plot demonstrates the effects of different feature variables on a global level. Color coding on the right side of the plot represents the value of a single observation for a specific feature. 
 <br/><br/>
 
 <p align="center">
@@ -71,7 +71,7 @@ Below are few selected visualizations to show the global and local effects of di
 <p align="center">SHAP summary plot showing the global effects of different features</p>
 <br/><br/>
 
-SHAP dependency plot below shows the more detailed effect of a feature variable on the predictions, in this case the number of departing passengers. In addition, another feature, the Deice variable, has been included in the plot as it demonstrates interaction effects with the number of departing passengers. Colored line on the right visualizes the values of the Deice variable.
+SHAP dependency plot below shows the more detailed effect of a feature variable, in this case the number of departing passengers, on the predictions. In addition, another feature, the Deice variable, has been included in the plot as it demonstrates interaction effects with the number of departing passengers. Colored line on the right visualizes the values of the Deice variable.
 
 <p align="center">
   <img src="/images/shap_36.png" alt="" width="500"/>
@@ -79,7 +79,7 @@ SHAP dependency plot below shows the more detailed effect of a feature variable 
 <p align="center">Metrics for different XGBoost models</p>
 <br/><br/>
 
-Lastly, waterfall plot belows demonstrates the local explainability which means the contributions of different features on a single turnaround prediction. Waterfall plots starts from the expected turnaround duration and concludes on the final prediction by adding contributions of different features to the expected value. Values on the left are the feature values in this specific turnaround. 
+Lastly, waterfall plot below demonstrates the local explainability which means the contributions of different features on a single turnaround prediction. Waterfall plot starts from the expected turnaround duration and concludes on the final prediction by adding contributions of different features to the expected value. Values on the left are the feature values in this specific turnaround. 
 
 <p align="center">
   <img src="/images/waterfall_best1.png" alt="" width="600"/>
