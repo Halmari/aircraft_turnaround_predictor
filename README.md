@@ -11,7 +11,7 @@ Final trained model is capable of explaining approximately 60% of the variance i
 - SHAP
 - Seaborn & Matplotlib
 
-The link for the thesis will be provided after it is available in the university library site.
+[The link for the thesis](https://github.com/Halmari/aircraft_turnaround_predictor/blob/main/thesis.pdf).
 <br/><br/>
 <p align="center">
   <img src="/images/turnaround.jpg" alt="Finnair aircraft turnaround" width="600"/>
